@@ -1,4 +1,4 @@
-# Quiz Game
+#[Day 17] Quiz Game
 
 It's a O/X game where you present the user with a question and ask them to choose True/False.
 You then tell them if they got the question right or wrong and give them a score.
