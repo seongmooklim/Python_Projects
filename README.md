@@ -1,4 +1,4 @@
-![image](https://github.com/seongmooklim/Python_Projects/assets/159662590/93c66928-4b6a-44b1-8b8a-9cdc8b148382)# Quiz Game
+# Quiz Game
 
 It's a O/X game where you present the user with a question and ask them to choose True/False.
 You then tell them if they got the question right or wrong and give them a score.
