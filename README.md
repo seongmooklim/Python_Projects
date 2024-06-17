@@ -1,4 +1,10 @@
 # [Day 16] Coffee Machine
+Coffee Machine Program Requirements
+1. Print report
+2. Check resources sufficient?
+3. Process coins
+4. Check transaction successful?
+5. Make Coffee
 
 # [Day 17] Quiz Game
 
