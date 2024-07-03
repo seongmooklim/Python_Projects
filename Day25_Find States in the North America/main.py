@@ -17,10 +17,11 @@ for i in range(50):
     answer_state = screen.textinput(title=f"{len(guessed_state)}/50 Guess State Correct",
                                     prompt="What's another state's name").title()
     if answer_state == 'Exit':
-        missing_state = []
-        for state in all_state:
-            if state not in guessed_state:
-                missing_state.append(state)
+        missing_state = [state for state in all_state if state not in guessed_state]
+        # for state in all_state:
+        #     if state not in guessed_state:
+        #         missing_state.append(state)
+
         df = pandas.DataFrame(missing_state)
         df.to_csv("missing_state.csv")
         break
