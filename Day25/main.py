@@ -3,29 +3,15 @@
 #     print(data)
 import pandas
 
-data = pandas.read_csv("weather_data.csv")
-
-# temp_list = data['temp'].to_list()
-# mean = sum(temp_list)/len(temp_list)
-# print(mean)
-# print(data['temp'].max())
-# print(data['condition'])
-#
-# max_temp = data['temp'].max()
-# print(data[data.temp == max_temp])
-
-monday = data[data.day == "Monday"]
-monday_temp = monday.temp
-f_temp = monday_temp*9/5+32
-print(f"f_temp is {f_temp}")
-
-#Create a dataframe from scratch
+data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
+gray_count = len(data[data["Primary Fur Color"] == "Gray"])
+red_count = len(data[data["Primary Fur Color"] == "Cinnamon"])
+black_count = len(data[data["Primary Fur Color"] == "Black"])
 
 data_dict = {
-    "students": ["Amy", "James", "Angela"],
-    "Scores": [76,12,66]
+    "Fur Color" : ["Gray", "Cinnamon", "Black"],
+    "Count" : [gray_count, red_count, black_count ]
 }
 
-data = pandas.DataFrame(data_dict)
-data.to_csv("new_csv_file.csv")
-
+df = pandas.DataFrame(data_dict)
+df.to_csv("squirrel_count.csv")
