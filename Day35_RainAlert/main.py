@@ -1,7 +1,7 @@
 import requests
 
 OWM_Endpoint = "https://api.openweathermap.org/data/2.8/onecall"
-api_key = "252dffee55c4b3c731a578a363feb106"
+api_key = ""
 parameters = {
     'lat': 37.440559,
     'lon': 127.13583,
