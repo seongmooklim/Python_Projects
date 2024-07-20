@@ -75,16 +75,16 @@ if abs(diff_percent) > 1:
 
     client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
 
-#TODO 8. - Create a new list of the first 3 article's headline and description using list comprehension.
+#Create a new list of the first 3 article's headline and description using list comprehension.
     for article in formatted_articles:
         message = client.messages.create(
             from_='+14786665068',
             body=article,
             to='+821051107804'
         )
-#TODO 9. - Send each article as a separate message via Twilio. 
+#Send each article as a separate message via Twilio.
 
-#Optional TODO: Format the message like this: 
+#Format the message like this:
 """
 TSLA: 🔺2%
 Headline: Were Hedge Funds Right About Piling Into Tesla Inc. (TSLA)?. 
