@@ -8,7 +8,7 @@ STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 #API_KEY = ""
 
-#TWILIO_SID = ""
+#TWILIO_SI_D = ""
 #TWILIO_AUTH_TOKEN = ""
 #RECOVERY_CODE = ""
 
