@@ -54,4 +54,5 @@ new_pixel_data = {
 
 delete_endpoint = f"{pixela_endpoint}/{USERNAME}/graphs/{GRAPH_ID}/{today.strftime("%Y%m%d")}"
 response = requests.delete(url=delete_endpoint, headers=headers)
+
 print(response.text)
