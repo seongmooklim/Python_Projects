@@ -1,3 +1,11 @@
+## Title
+
+### project 1
+
+#### project 2
+
+
+
 - $e^{ik\Delta x}+e^{−ik\Delta x}=2\cos(k\Delta x)$ /  $e^{ik\Delta x}-e^{−ik\Delta x}=2i\sin(k\Delta x)$ / $e^{ik\Delta x}+e^{ik\Delta x}-2 = -4\sin^2\frac{k \Delta x}{2}$ / $1−cos(k\Delta x)=2sin^2(\frac{k\Delta x}{2}​)$
 - 푸아송 방정식 $\nabla^2 \phi = -\frac{\rho}{\epsilon_0}$의 이산화 형태는 $A \phi = -\frac{\rho}{\epsilon_0}$입니다. 따라서 $ρ=−ϵ_0​Aϕ$입니다.
 - Crank-Nicolson (Semi / Full discretization)
